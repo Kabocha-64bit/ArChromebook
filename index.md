@@ -1,3 +1,5 @@
+![ArChromebook Logo](logo.png)
+
 # ArChromebook
 
 Welcome to the Arch (btw) life, but with one major limit. You only have a stinky Chromebook with 4GB of RAM and a small eMMC drive. Half the time, ChromeOS is way too big (especially with those heavy Linux apps), and we want more. That’s where we come in—this is the home for installing Arch on a real (x86_64) Chromebook!
@@ -40,7 +42,7 @@ Use `fdisk /dev/mmcblk0`. Since space is tight:
 - The rest for your Root (Type: Linux Filesystem)
 
 ### 3. Pacstrap
-Include the AMD microcode for your A4 chip so it doesn't freak out:
+Include the AMD microcode for your chip so it doesn't freak out:
 
 ```bash
 pacstrap /mnt base linux linux-firmware amd-ucode
@@ -48,7 +50,7 @@ pacstrap /mnt base linux linux-firmware amd-ucode
 
 ## Phase 3: Solving the Black Screen
 
-If you reboot and the screen stays black, don't panic. It's just the kernel fighting with your AMD A4 chip. 
+If you reboot and the screen stays black, don't panic. It's just the kernel fighting with your chip. 
 
 ### 1. Edit GRUB
 Open your config: `nano /etc/default/grub`
