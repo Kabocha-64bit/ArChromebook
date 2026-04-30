@@ -1,0 +1,1 @@
+Welcome to the Arch (btw) life, but on one limit. You only have a stinky Chromebook with 4gb ram and a small eMMC drive. Half the time, ChromeOS is pretty big (especially with Linux apps), and we want more. Thats where we come here, the home for installing Arch on a (x86_64) Chromebook!
